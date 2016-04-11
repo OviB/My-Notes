@@ -1,0 +1,16 @@
+
+
+
+Current Goals:
+1.  In detailViewController check the text entered and if nothing was entered including white spaces change it to BLANK_NOTE
+
+
+
+Previous:
+7.  Added code for spliteView usage
+6.  Added mechanism to save and load data to/from NSUserDefaults
+5.  Added variables neded to hold notes
+4.  Updated storyboard to hold a textview and hooked its controller
+3.  Added icon assets to project
+2.  Added the Xcode project to GitHub
+1.  Created GitHub repo

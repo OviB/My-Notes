@@ -15,6 +15,7 @@
 		EFE744301CBC0F4F008C6D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE7442E1CBC0F4F008C6D44 /* LaunchScreen.storyboard */; };
 		EFE7443B1CBC0F4F008C6D44 /* My_NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7443A1CBC0F4F008C6D44 /* My_NotesTests.swift */; };
 		EFE744461CBC0F4F008C6D44 /* My_NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE744451CBC0F4F008C6D44 /* My_NotesUITests.swift */; };
+		EFE744541CBC136B008C6D44 /* WorkLog.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFE744531CBC136B008C6D44 /* WorkLog.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EFE744411CBC0F4F008C6D44 /* My NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My NotesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE744451CBC0F4F008C6D44 /* My_NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_NotesUITests.swift; sourceTree = "<group>"; };
 		EFE744471CBC0F4F008C6D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE744531CBC136B008C6D44 /* WorkLog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WorkLog.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				EFE7442C1CBC0F4F008C6D44 /* Assets.xcassets */,
 				EFE7442E1CBC0F4F008C6D44 /* LaunchScreen.storyboard */,
 				EFE744311CBC0F4F008C6D44 /* Info.plist */,
+				EFE744531CBC136B008C6D44 /* WorkLog.txt */,
 			);
 			path = "My Notes";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				EFE744301CBC0F4F008C6D44 /* LaunchScreen.storyboard in Resources */,
 				EFE7442D1CBC0F4F008C6D44 /* Assets.xcassets in Resources */,
+				EFE744541CBC136B008C6D44 /* WorkLog.txt in Resources */,
 				EFE7442B1CBC0F4F008C6D44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
