@@ -1,0 +1,14 @@
+
+
+
+Current Goal:
+
+
+
+Previous:
+6.  Added mechanism to save and load data to/from NSUserDefaults
+5.  Added variables neded to hold notes
+4.  Updated storyboard to hold a textview and hooked its controller
+3.  Added icon assets to project
+2.  Added the Xcode project to GitHub
+1.  Created GitHub repo
