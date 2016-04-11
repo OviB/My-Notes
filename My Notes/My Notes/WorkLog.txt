@@ -1,7 +1,8 @@
 
 
 
-Current Goal:
+Current Goals:
+1.  In detailViewController check the text entered and if nothing was entered including white spaces change it to BLANK_NOTE
 
 
 
