@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, UITextViewDelegate{
     
     @IBOutlet weak var detailDescriptionLabel: UITextView!
     
@@ -43,6 +43,8 @@ class DetailViewController: UIViewController {
         detailViewController = self
         detailDescriptionLabel.becomeFirstResponder()
         
+        detailDescriptionLabel.delegate = self
+        
         self.configureView()
     }
     
@@ -73,6 +75,11 @@ class DetailViewController: UIViewController {
     func saveAndUpdate() {
         masterView?.save()
         masterView?.tableView.reloadData()
+    }
+    
+    func textViewDidChange(textView: UITextView) {
+        objects[currentIndex] = detailDescriptionLabel.text
+        saveAndUpdate()
     }
     
     
